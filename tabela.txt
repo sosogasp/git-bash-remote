@@ -1,0 +1,11 @@
+comando git| exemplo de uso                          | operação
+config     |git config --global user.name/user.e-mail|configura o usuario e o email
+help       |git help <comando>                       | obtem ajuda sobre um comando específico
+init       |git init                                 |incializar um repositório em uma pasta
+status     |git status                               |verificar a situação do repositório
+add <file> |git add./git add <arquivo>               |adiciona um ou mais arquivos ao staging area
+commit     |git commit -m "mensagem"                 |commita o repositório
+reset      |git reset <arquivo>                      |volta ao estado preparado para modificado
+restore    |git restore <arquivo>                    |desfaz uma alteração em um arquivo modificado
+clean      |git clean -fd                            |desfaz a criação (apaga) um arquivo criado
+branch     |git branch -M "main"                     |mudar o nome da branch principal
